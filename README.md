@@ -1,5 +1,5 @@
-EcoLords
-========
+EcoLord
+=======
 
 Repository used during the Apps For Energy event. (18 & 19 October 2013)
 
