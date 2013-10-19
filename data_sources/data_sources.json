@@ -1,0 +1,645 @@
+{
+    "resources": {
+        "bel": {
+            "windturbines": {
+                "documentation": "Lijst van operationele windturbines in Vlaanderen met onder andere de locatie en vermogen.",
+                "uri": "http://data.appsforenergy.be/bel/windturbines.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "eurostat": {
+            "final_energy_consumption": {
+                "documentation": "Compleet energieverbruik uitgedrukt in 1000 ton olie equivalent.",
+                "uri": "http://data.appsforenergy.be/eurostat/final_energy_consumption.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod_geothermal": {
+                "documentation": "Totale hoeveelheid energie opgewekt door geothermische bronnen. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod_geothermal.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod_biomass": {
+                "documentation": "Totale hoeveelheid energie opgewekt door biomassa en bio-degradeerbaar afval. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod_biomass.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod": {
+                "documentation": "Totale hoeveelheid energie opgewekt door hernieuwbare energiebronnen. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod_hydro": {
+                "documentation": "Totale hoeveelheid energie opgewekt door water bronnen. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod_hydro.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod_solar": {
+                "documentation": "Totale hoeveelheid energie opgewekt door zonne-energie. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod_solar.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "total_renew_energy_prod_wind": {
+                "documentation": "Totale hoeveelheid energie opgewekt door wind-energie. (1000 ton olie equivalent - EU27)",
+                "uri": "http://data.appsforenergy.be/eurostat/total_renew_energy_prod_wind.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "world": {
+            "primary_energy_prod": {
+                "documentation": "Energy production refers to forms of primary energy--petroleum (crude oil, natural gas liquids, and oil from nonconventional sources), natural gas, solid fuels (coal, lignite, and other derived fuels), and combustible renewables and waste--and primary electricity, all converted into oil equivalents.",
+                "uri": "http://data.appsforenergy.be/world/primary_energy_prod.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_losses": {
+                "documentation": "Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage.",
+                "uri": "http://data.appsforenergy.be/world/energy_losses.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "electricity_production": {
+                "documentation": "Electricity production is measured at the terminals of all alternator sets in a station. In addition to hydropower, coal, oil, gas, and nuclear power generation, it covers generation by geothermal, solar, wind, and tide and wave energy, as well as that from combustible renewables and waste. Production includes the output of electricity plants that are designed to produce electricity only as well as that of combined heat and power plants.",
+                "uri": "http://data.appsforenergy.be/world/electricity_production.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_usage": {
+                "documentation": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+                "uri": "http://data.appsforenergy.be/world/energy_usage.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "electricity_consumption": {
+                "documentation": "Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.",
+                "uri": "http://data.appsforenergy.be/world/electricity_consumption.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "vito": {
+            "scooter_1": {
+                "documentation": "Laad en ontlaadcurven van de batterijen in de elektrische scooters (koppeling via ID). - scooter 1",
+                "uri": "http://data.appsforenergy.be/vito/scooter_1.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "scooter_2": {
+                "documentation": "Laad en ontlaadcurven van de batterijen in de elektrische scooters (koppeling via ID). - scooter 2",
+                "uri": "http://data.appsforenergy.be/vito/scooter_2.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "scooter_3": {
+                "documentation": "Laad en ontlaadcurven van de batterijen in de elektrische scooters (koppeling via ID). - scooter 3",
+                "uri": "http://data.appsforenergy.be/vito/scooter_3.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "profielen_scooters": {
+                "documentation": "Rij en laadprofielen van elektrische scooters.",
+                "uri": "http://data.appsforenergy.be/vito/profielen_scooters.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "solar_panels_noorderkempen": {
+                "documentation": "Opbrengstprofielen zonnepanelen voor verschillende locaties.",
+                "uri": "http://data.appsforenergy.be/vito/solar_panels_noorderkempen.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "solar_panels_oostvlaanderen": {
+                "documentation": "Opbrengstprofielen zonnepanelen voor verschillende locaties.",
+                "uri": "http://data.appsforenergy.be/vito/solar_panels_oostvlaanderen.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "solar_panels_westlimburg": {
+                "documentation": "Opbrengstprofielen zonnepanelen voor verschillende locaties.",
+                "uri": "http://data.appsforenergy.be/vito/solar_panels_westlimburg.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "vito/energy_consumption": {
+            "dishwasher_40_45_degrees": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/dishwasher_40_45_degrees.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "dishwasher_50_degrees": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/dishwasher_50_degrees.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "dishwasher_65_degrees": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/dishwasher_65_degrees.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "fridge_3_hours": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/fridge_3_hours.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "tumble_dryer_antiwrinkle25min": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/tumble_dryer_antiwrinkle25min.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "tumble_dryer_condensereasycareirondry": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/tumble_dryer_condensereasycareirondry.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "tumble_dryer_easycarecupboarddry": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/tumble_dryer_easycarecupboarddry.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "tumble_dryer_mixedfabricscupboarddry": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/tumble_dryer_mixedfabricscupboarddry.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "washing_machine_linnen_cotton": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/washing_machine_linnen_cotton.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "washing_machine_prewash": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/washing_machine_prewash.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "washing_machine_synthetic": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/washing_machine_synthetic.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "washing_machine_wool": {
+                "documentation": "Energie consumptie profielen op seconden basis van vaatwasser, wasmachine, droogkast en koelkast.",
+                "uri": "http://data.appsforenergy.be/vito/energy_consumption/washing_machine_wool.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "gent": {
+            "energy_2009": {
+                "documentation": "Anonieme informatie uit Essent.be klanten van Gent betreffende energieverbruik, zonnepanelen e.d.",
+                "uri": "http://data.appsforenergy.be/gent/energy_2009.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_2010": {
+                "documentation": "Anonieme informatie uit Essent.be klanten van Gent betreffende energieverbruik, zonnepanelen e.d. - data uit jaar 2010",
+                "uri": "http://data.appsforenergy.be/gent/energy_2010.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_2011": {
+                "documentation": "Anonieme informatie uit Essent.be klanten van Gent betreffende energieverbruik, zonnepanelen e.d. - data uit jaar 2011",
+                "uri": "http://data.appsforenergy.be/gent/energy_2011.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_2012": {
+                "documentation": "Anonieme informatie uit Essent.be klanten van Gent betreffende energieverbruik, zonnepanelen e.d. - data uit jaar 2012",
+                "uri": "http://data.appsforenergy.be/gent/energy_2012.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "energy_2013": {
+                "documentation": "Anonieme informatie uit Essent.be klanten van Gent betreffende energieverbruik, zonnepanelen e.d. - data uit jaar 2013",
+                "uri": "http://data.appsforenergy.be/gent/energy_2013.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "smartmeter": {
+            "data": {
+                "documentation": "Data van het Smart Meter project.",
+                "uri": "http://data.appsforenergy.be/smartmeter/data.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "full_data": {
+                "documentation": "Data van het Smart Meter project, volledig bestand.",
+                "uri": "http://data.appsforenergy.be/smartmeter/full_data.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "subsidies": {
+            "warmtepompen": {
+                "documentation": "Gemeentelijke subsidies voor particulieren voor warmtepompen.",
+                "uri": "http://data.appsforenergy.be/subsidies/warmtepompen.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "pv": {
+                "documentation": "Gemeentelijke subsidies voor particulieren voor pvs.",
+                "uri": "http://data.appsforenergy.be/subsidies/pv.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "zonneboiler": {
+                "documentation": "Gemeentelijke subsidies voor particulieren voor zonneboilers.",
+                "uri": "http://data.appsforenergy.be/subsidies/zonneboiler.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "essentbe": {
+            "klanten_info": {
+                "documentation": "Anonieme klanten informatie van Essent.be",
+                "uri": "http://data.appsforenergy.be/essentbe/klanten_info.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "algemeen": {
+            "netvergoeding": {
+                "documentation": "De tarieven van de forfaitaire netvergoeding die klanten met zonnepanelen vanaf 1/1/2013 moeten betalen.",
+                "uri": "http://data.appsforenergy.be/algemeen/netvergoeding.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "wallonia": {
+            "sites_production": {
+                "documentation": "gecertifird (door CWAPE) Energy Producer per type, met adres en capaciteit.",
+                "uri": "http://data.appsforenergy.be/wallonia/sites_production.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            },
+            "voltaische_data": {
+                "documentation": "Photovoltaische productie per gemeente.",
+                "uri": "http://data.appsforenergy.be/wallonia/voltaische_data.about",
+                "parameters": {
+                    "page": "Represents the page number if the dataset is paged, this parameter works together with page_size, which is default set to 500. Set this parameter to -1 if you don't want paging to be applied.",
+                    "page_size": "Represents the size of a page, this means that by setting this parameter, you can alter the amount of results that are returned, in one page (e.g. page=1&page_size=3 will give you results 1,2 and 3).",
+                    "limit": "Instead of page/page_size you can use limit and offset. Limit has the same purpose as page_size, namely putting a cap on the amount of entries returned, the default is 500. Set this parameter to -1 if don't want paging to be applied.",
+                    "offset": "Represents the offset from which results are returned (e.g. ?offset=12&limit=5 will return 5 results starting from 12)."
+                },
+                "requiredparameters": [
+                ]
+            }
+        },
+        "tdtinfo": {
+            "resources": {
+                "documentation": "This resource contains the documentation of all the resources.",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            },
+            "packages": {
+                "documentation": "This resource contains every package installed on this DataTank instance.",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            },
+            "admin": {
+                "documentation": "This resource contains the information an Admin should know. It documents all possible addition, deletion and creation methods",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            },
+            "formatters": {
+                "documentation": "Returns all formatters available in the installed datatank.",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            },
+            "statistics": {
+                "documentation": "This resource performs some statistical functionality on the apache access.log file. It will return statistical data in a weekly timeframe starting from the date you enter.",
+                "requiredparameters": [
+                ],
+                "parameters": {
+                    "resourcestring": "A full packageresource string identifying a resource of which you want to get some statistics from, by default TDTAdmin/Resources.",
+                    "date": "The date to start the timeframe from, by default it's filled in with the current date. Use the format used by apache access log which is day in 2 digits, month in 3 letters, year in 4 digits i.e. 01/Feb/2008."
+                }
+            }
+        },
+        "tdtadmin": {
+            "resources": {
+                "documentation": "This resource contains all the resource definitions.",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            },
+            "export": {
+                "documentation": "This resource will export resource definitions to a PHP file. This PHP file can be used to add the exported resources.",
+                "requiredparameters": [
+                ],
+                "parameters": {
+                    "export_package": "The package name of which all or one resource(s) (depending on whether or not a resource parameters is passed as well) will be exported.",
+                    "export_resource": "The resource to be exported, be sure to pass along the package-string to identify the resource.",
+                    "export_url": "The base url to where the PUT requests should be sent to. This might be because you want to export resource definitions but PUT them to another datatank instance.",
+                    "export_url_username": "An authorized username allowed to perform PUT requests. Default is the username in the Config of the datatank.",
+                    "export_url_password": "The password used to authenticate the user. Default is the password in the Config of the datatank."
+                }
+            },
+            "docreset": {
+                "documentation": "This resource contains all the resource definitions.",
+                "requiredparameters": [
+                ],
+                "parameters": [
+                ]
+            }
+        }
+    }
+} 

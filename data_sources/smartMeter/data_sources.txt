@@ -1,0 +1,12 @@
+Data graphs
+-----------
+
+Energy delivered:
+----------------
+http://data.appsforenergy.be/smartmeter/data.graph?values=e_delivered_1
+http://data.appsforenergy.be/smartmeter/data.graph?values=e_delivered_2
+
+Energy received:
+----------------
+http://data.appsforenergy.be/smartmeter/data.graph?values=e_received_1
+http://data.appsforenergy.be/smartmeter/data.graph?values=e_received_2
